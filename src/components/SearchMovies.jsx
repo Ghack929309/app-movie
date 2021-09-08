@@ -17,8 +17,8 @@ function SearchMovies() {
 		if (!query) {
 			return;
 		}
-
 		const url = `https://api.themoviedb.org/3/search/movie?api_key=${process.env.REACT_APP_API_KEY}&language=en-US&query=${query}&page=1&include_adult=true`;
+
 		const fetchData = async () => {
 			try {
 				const res = await fetch(url);
