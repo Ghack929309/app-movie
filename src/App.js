@@ -4,7 +4,7 @@ import SearchMovies from "./components/SearchMovies";
 function App() {
 	return (
 		<div className="container">
-			<div className="title"> Movie</div>
+			<div className="title">Ghack Movie</div>
 			<SearchMovies />
 		</div>
 	);
